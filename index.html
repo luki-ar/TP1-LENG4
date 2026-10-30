@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0"> 
+    <title>Geolocalización</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+    <div class="caja-ubicacion"> 
+        <h2 class="titulo">Ubicación</h2> 
+ 
+        <label>Nombre de la ubicación:</label> 
+        <input type="text" id="nombreUbi" placeholder="Ingrese el 
+nombre de la ubicación"> 
+        
+        <label>Latitud:</label> 
+        <input type="text" id="lat" placeholder="Ingrese la latitud"> 
+ 
+        <label>Longitud:</label> 
+        <input type="text" id="lon" placeholder="Ingrese la longitud"> 
+ 
+        <button onclick="abrirMapa()" class="btn-abrir">Abrir 
+Ubicación</button> 
+    </div> 
+ 
+    <script src="scriptapi.js"></script> 
+</body> 
+</html> 
